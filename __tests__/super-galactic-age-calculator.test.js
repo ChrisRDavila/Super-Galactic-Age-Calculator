@@ -15,5 +15,9 @@ describe('AgeCalculator', () => {
     expect(ageTest.mercuryAge()).toEqual(161.94);
   });
 
+  test ("3: should convert earthAge to Venus Age", () => {
+    expect(ageTest.venusAge()).toEqual(100);
+  });
+
 
 });
