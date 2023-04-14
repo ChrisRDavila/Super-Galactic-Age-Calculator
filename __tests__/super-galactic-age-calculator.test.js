@@ -11,8 +11,8 @@ describe('AgeCalculator', () => {
     expect(ageTest.earthAge).toEqual(38.87);
   });
   
-  test ("2 :should convert age(earthAge) to mercuryAge", () => {
-  expect(ageTest.mercuryAge()).toEqual(161.96);
+  test ("2 :should convert age(earthAge) to mercury Age", () => {
+    expect(ageTest.mercuryAge()).toEqual(161.96);
   });
 
 
