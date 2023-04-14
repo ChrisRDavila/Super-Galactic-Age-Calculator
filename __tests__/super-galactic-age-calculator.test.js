@@ -3,13 +3,12 @@ import { AgeCalculator } from '../src/js/super-galactic-age-calculator.js';
 describe('AgeCalculator', () => {
   let ageTest;
 
-  beforeEach(() => {
-    ageTest = new AgeCalculator(38.866)
+  beforeAll(() => {
+    ageTest = new AgeCalculator(38.87)
   });
+  
   test ('1 :should allow to create personalized age Calculator with property for Earth age', () => {
-    expect(ageTest.earthAge).toEqual(38.866);
+    expect(ageTest.earthAge).toEqual(38.87);
   });
-  ageTest.mercuryAge();
-  test ("2 :should convert age(earthAge) to mercuryAge");
-  expect(ageTest.mercuryAge).toEqual(162)
+
 });
