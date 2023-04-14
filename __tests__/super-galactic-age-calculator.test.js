@@ -1,4 +1,4 @@
-import { AgeCalculator } from '..src/super-galactic-age-calculator.js';
+import { AgeCalculator } from '..src/js/super-galactic-age-calculator.js';
 
 describe('AgeCalculator', () => {
   let ageTest;
