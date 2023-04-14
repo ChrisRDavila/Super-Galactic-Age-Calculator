@@ -1,4 +1,4 @@
-import { AgeCalculator } from '..src/js/super-galactic-age-calculator.js';
+import { AgeCalculator } from '../src/js/super-galactic-age-calculator.js';
 
 describe('AgeCalculator', () => {
   let ageTest;
@@ -7,6 +7,6 @@ describe('AgeCalculator', () => {
     ageTest = new AgeCalculator(38)
   });
   test ('should allow to create personalized age Calculator with property for Earth age', () => {
-    expect(ageTest.age).toEqual(38);
+    expect(ageTest.earthAge).toEqual(38);
   });
 });
