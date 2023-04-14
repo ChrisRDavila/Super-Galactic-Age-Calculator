@@ -64,8 +64,10 @@ describe('AgeCalculator', () => {
   })
 
   test ("14: should determine how many mars years will pass by the time im 50", () => {
-    expect(ageTest.marsYearsTil50()).toEqual(100);
+    expect(ageTest.marsYearsTil50()).toEqual(5.92);
   })
+
+  
 
 
 });
