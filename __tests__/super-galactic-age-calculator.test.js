@@ -23,5 +23,9 @@ describe('AgeCalculator', () => {
     expect(ageTest.marsAge()).toEqual(20.67);
   });
 
+  test ("5: should convert earthAge to Jupiter Age", () => {
+    expect(ageTest.JupiterAge()).toEqual(100);
+  });
+
 
 });
