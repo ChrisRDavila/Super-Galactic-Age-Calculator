@@ -3,4 +3,4 @@ export class AgeCalculator {
     this.earthAge = earthAge
   }
 }
-//ran test again with environmetn corrected
+//ran test again with exact age for test variable corrected
