@@ -52,7 +52,7 @@ describe('AgeCalculator', () => {
   })
   
   test ("12: should determine how many mercury years will pass by the time im 50", () => {
-    expect(ageTest.mercYearsTil50()).toEqual(100);
+    expect(ageTest.mercYearsTil50()).toEqual(46.39);
   })
 
 

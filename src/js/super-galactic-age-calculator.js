@@ -42,4 +42,8 @@ export class AgeCalculator {
   yearsTil50() {
     return Number.parseFloat((50 - this.earthAge).toFixed(2));
   }
+
+  mercYearsTil50() {
+    return Number.parseFloat(((50 - this.earthAge) / 0.24).toFixed(2));
+  }
 }
