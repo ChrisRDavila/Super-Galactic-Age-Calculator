@@ -40,7 +40,7 @@ describe('AgeCalculator', () => {
   })
 
   test ("9: should determine how many mars years have passed since I was 30 in earth years", () => {
-    expect(ageTest.marsYearsSince30()).toEqual(100);
+    expect(ageTest.marsYearsSince30()).toEqual(4.72);
   })
 
 
