@@ -4,9 +4,10 @@ describe('AgeCalculator', () => {
   let ageTest;
 
   beforeEach(() => {
-    ageTest = new AgeCalculator(38)
+    ageTest = new AgeCalculator(38.866)
   });
   test ('should allow to create personalized age Calculator with property for Earth age', () => {
-    expect(ageTest.earthAge).toEqual(38);
+    expect(ageTest.earthAge).toEqual(38.866);
   });
+
 });
