@@ -20,7 +20,7 @@ describe('AgeCalculator', () => {
   });
 
   test ("4: should convert earthAge to Mars Age", () => {
-    expect(ageTest.marsAge()).toEqual(100);
+    expect(ageTest.marsAge()).toEqual(20.67);
   });
 
 

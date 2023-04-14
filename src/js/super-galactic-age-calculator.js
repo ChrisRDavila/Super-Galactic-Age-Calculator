@@ -10,4 +10,8 @@ export class AgeCalculator {
   venusAge() {
     return Number.parseFloat((this.earthAge / 0.62).toFixed(2));
   }
+
+  marsAge() {
+    return Number.parseFloat((this.earthAge / 1.88).toFixed(2));
+  }
 }
