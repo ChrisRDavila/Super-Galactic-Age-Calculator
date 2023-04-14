@@ -36,7 +36,7 @@ describe('AgeCalculator', () => {
   })
 
   test ("8: should determine how many venus years have passed since I was 30 in earth years", () => {
-    expect(ageTest.venYearsSince30()).toEqual(100);
+    expect(ageTest.venYearsSince30()).toEqual(14.30);
   })
 
 
