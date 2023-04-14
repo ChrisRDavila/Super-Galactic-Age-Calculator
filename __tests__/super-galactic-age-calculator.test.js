@@ -10,5 +10,10 @@ describe('AgeCalculator', () => {
   test ('1 :should allow to create personalized age Calculator with property for Earth age', () => {
     expect(ageTest.earthAge).toEqual(38.87);
   });
+  
+  test ("2 :should convert age(earthAge) to mercuryAge", () => {
+  expect(ageTest.mercuryAge()).toEqual(161.96);
+  });
+
 
 });
