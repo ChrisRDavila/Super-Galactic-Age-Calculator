@@ -28,7 +28,7 @@ describe('AgeCalculator', () => {
   });
 
   test ("6: should determine how many Earth years have passed since I was 30(earth years) old", () => {
-    expect(ageTest.earthYears30()).toEqual(100);
+    expect(ageTest.earthYears30()).toEqual(8.87);
   });
 
 
