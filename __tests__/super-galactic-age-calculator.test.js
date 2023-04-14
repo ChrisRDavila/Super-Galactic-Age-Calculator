@@ -1,1 +1,1 @@
-Describe
+import { AgeCalculator } from '..src/super-galactic-age-calculator.js';
