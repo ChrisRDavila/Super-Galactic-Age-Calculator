@@ -32,7 +32,7 @@ describe('AgeCalculator', () => {
   });
 
   test ("7: should determine how many mercury years have passed since I was 30 in earth years", () => {
-    expect(ageTest.mercYearsSince30()).toEqual(100);
+    expect(ageTest.mercYearsSince30()).toEqual(36.94);
 
   })
 
