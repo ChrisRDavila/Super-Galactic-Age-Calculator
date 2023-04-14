@@ -43,5 +43,9 @@ describe('AgeCalculator', () => {
     expect(ageTest.marsYearsSince30()).toEqual(4.72);
   })
 
+  test ("10: should determine how many jupiter years have passed since I was 30 in earth years", () => {
+    expect(ageTest.jupYearsSince30()).toEqual(100);
+  })
+
 
 });
