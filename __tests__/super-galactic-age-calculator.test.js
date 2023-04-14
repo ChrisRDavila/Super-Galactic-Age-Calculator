@@ -59,5 +59,13 @@ describe('AgeCalculator', () => {
     expect(ageTest.venYearsTil50()).toEqual(17.96);
   })
 
+  test ("13: should determine how many venus years will pass by the time im 50", () => {
+    expect(ageTest.venYearsTil50()).toEqual(17.96);
+  })
+
+  test ("14: should determine how many mars years will pass by the time im 50", () => {
+    expect(ageTest.marsYearsTil50()).toEqual(100);
+  })
+
 
 });
