@@ -14,4 +14,8 @@ export class AgeCalculator {
   marsAge() {
     return Number.parseFloat((this.earthAge / 1.88).toFixed(2));
   }
+
+  jupiterAge() {
+    return Number.parseFloat((this.earthAge / 11.86).toFixed(2));
+  }
 }
