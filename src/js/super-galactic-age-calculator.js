@@ -38,4 +38,8 @@ export class AgeCalculator {
   jupYearsSince30() {
     return Number.parseFloat(((this.earthAge - 30) / 11.86).toFixed(2));
   }
+
+  yearsTil50() {
+    return Number.parseFloat((50 - this.earthAge).toFixed(2));
+  }
 }

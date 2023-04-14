@@ -47,5 +47,9 @@ describe('AgeCalculator', () => {
     expect(ageTest.jupYearsSince30()).toEqual(0.75);
   })
 
+  test ("11: should determine how many earth years will pass by the time im 50", () => {
+    expect(ageTest.yearsTil50()).toEqual(11.13);
+  })
+
 
 });
