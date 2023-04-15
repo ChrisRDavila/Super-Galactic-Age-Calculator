@@ -70,6 +70,4 @@ describe('AgeCalculator', () => {
   test ("15: should determine how many jupiter years will pass by the time im 50", () => {
     expect(ageTest.jupYearsTil50()).toEqual(0.94);
   })
-
-
 });
