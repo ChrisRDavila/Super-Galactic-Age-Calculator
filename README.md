@@ -36,6 +36,6 @@ Super Galactic Age Calculator is a practice in using consturctor classes as well
 
 ## License
 
-[MIT](https://github.com/ChrisRDavila/Super-Galactic-Age-Calculator/new/main)
+[MIT](https://github.com/ChrisRDavila/Super-Galactic-Age-Calculator/blob/main/LICENSE)
 
 Copyright (c) 2023 Christopher Davila

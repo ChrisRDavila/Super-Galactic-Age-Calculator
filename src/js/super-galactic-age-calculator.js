@@ -59,3 +59,7 @@ export class AgeCalculator {
     return Number.parseFloat(((50 - this.earthAge) / 11.86).toFixed(2));
   }
 }
+// if we want to add strings later to correspond to eachh output, do it like so:
+// jupYearsTil50() {
+//   return Number.parseFloat(((50 - this.earthAge) / 11.86).toFixed(2)) + " Jupiter years have passed";
+// }
