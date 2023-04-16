@@ -6,7 +6,7 @@
 
 ## Technologies Used
 
-* _Linter_
+* _eslint 8.18.0_
 * _babel_
 * _webpack_
 * _npm_
@@ -22,11 +22,14 @@ Super Galactic Age Calculator is a practice in using consturctor classes as well
 
 * _Clone from repository to users computer_
 * _make sure .gitignore is added to repository_
-* _Install all packages with $ npm install._
+* _Install all packages with $ npm install_
 * _Building the project using webpack with $ npm run build_
 * _Starting a development server with $ npm run start_
-* _Linting JS files in the src folder with $ npm run lint_
-* _Running tests with Jest using $ npm run test_
+* _You can Lint JS files in the src folder with $ npm run lint_
+* _Can also Run tests with Jest using $ npm run test, will allow to see line coverage and passing of test logic_
+* _Code at this point only contains Business Logic therefore instance to test has been created in the __tests__ file_
+
+
 
 
 ## Known Bugs
