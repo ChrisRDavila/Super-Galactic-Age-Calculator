@@ -2,7 +2,7 @@
 
 #### (This application will convert earth years to years on mercury, venus, mars and jupiter)
 
-#### By (Chirstopher Davila)
+#### By (Christopher Davila)
 
 ## Technologies Used
 
@@ -14,6 +14,7 @@
 * _javascript_
 * _jist_
 * _markdown_
+* _CSS_
 
 ## Description
 Super Galactic Age Calculator is a practice in using consturctor classes as well as Red and Green refactor work flow. The business logic of this application is able to take a number for age in earth years and convert it to years on Mercury, Venus, Mars and Jupiter.  It can also show how many years have passed since a selected age on each planet as well as how many years will pass until an specified age is met on each planet.
@@ -28,9 +29,6 @@ Super Galactic Age Calculator is a practice in using consturctor classes as well
 * _You can Lint JS files in the src folder with $ npm run lint_
 * _Can also Run tests with Jest using $ npm run test, will allow to see line coverage and passing of test logic_
 * _Code at this point only contains Business Logic therefore instance to test has been created in the __tests__ file_
-
-
-
 
 ## Known Bugs
 
