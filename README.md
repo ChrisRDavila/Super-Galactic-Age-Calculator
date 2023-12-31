@@ -17,7 +17,7 @@
 * _CSS_
 
 ## Description
-Super Galactic Age Calculator is a practice in using consturctor classes as well as Red and Green refactor work flow. The business logic of this application is able to take a number for age in earth years and convert it to years on Mercury, Venus, Mars and Jupiter.  It can also show how many years have passed since a selected age on each planet as well as how many years will pass until an specified age is met on each planet.
+Super Galactic Age Calculator is a practice in using consturctor classes as well as Red and Green refactor work flow. The business logic of this application is able to take a number for age in earth years and convert it to years on Mercury, Venus, Mars and Jupiter.  It can also show how many years have passed since a selected age on each planet as well as how many years will pass until an specified age is met on each planet. Code review for OOP
 
 ## Setup/Installation Requirements
 
